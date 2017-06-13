@@ -1,0 +1,17 @@
+# 贷上钱 app api 列表
+
+* [通过网页操作 APP 退出登录](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi)
+* [操作 app 跳转到指定的界面](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-openview)
+* [获取当前客户端信息](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-sysplatform)
+* [通过网页操作 app 展示选择图片的弹框](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-uploadimage)
+* [操作 app 拨打电话](http://git.fond.io/kfq/paydayloanvue/wikis/phonecall)
+* [调用 app 分享](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-setsharefromweb)
+* [设置 app 关闭 webview](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-setcloseview)
+* [上报地址](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-getaddress)
+* [调用 OCR 身份验证](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-openocr)
+* [调用活体识别](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-openfaceidentify)
+* [上报联系人](http://git.fond.io/kfq/paydayloanvue/wikis/dsqapi-getrelation)
+* [获取单个联系人信息](http://git.fond.io/kfq/paydayloanvue/wikis/daqapi-getcontact)
+* [获取公积金信息](./opengongjijin.md)
+* [调用京东授权采集](./openjingdong.md)
+* [调用淘宝授权采集](./opentaobao.md)

@@ -1,0 +1,23 @@
+# 以下为整理配置到cos后台的header
+
+X-THIRD-TOKEN,
+X-CLIENT-ID,
+X-CHANNEL,
+X-TOKEN,
+X-App-Id,
+cache-control,
+X-Forwarded-For,
+X-Requested-With,
+X-Wap-Profile,
+X-Up-Bear-Type,
+X-Forwarded-For,
+Scheme,
+Request-Uri,
+X-Forwarded-Proto,
+X-Real-Ip,
+X-T5-Version,
+X-Tc-Client-Type,
+X-Tc-Session-Id,
+Via,
+Clientip,
+X-Requested-With

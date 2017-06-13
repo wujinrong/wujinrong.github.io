@@ -1,0 +1,59 @@
+/**
+ * 元素默认样式统一
+ * @author bigfact
+ */
+
+@import './_globals';
+
+html {
+  height: 100%;
+  font-family: Helvetica, '宋体', Tahoma, Arial, sans-serif;
+  font-size: $html_font_size;
+  max-width: $html_max_width;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+body {
+  height: 100%;
+  font-size: px2rem(14);
+  color: $color-primary;
+  background: #F8F8F8;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none; // IOS 中用户双击页面导致页面上拉
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-primary;
+}
+
+li {
+	list-style: none;
+}
+
+button, input {
+	outline: none;
+  border: none;
+}
+
+label, input {
+  font-size: px2rem(15);
+}
+
+input {
+  color: $color-primary;
+}
+
+input[readonly] {
+  color:$light;
+}
+
+th {
+  font-weight: normal;
+}
