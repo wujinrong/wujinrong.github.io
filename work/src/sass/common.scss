@@ -1,0 +1,219 @@
+@import './_globals';
+
+@import './_btn';
+
+@import './_normalize';
+
+@import './_loading';
+
+@import './_color';
+
+#app {
+  height: 100%;
+}
+
+/**
+ * 浮动
+ */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+/**
+ * 文字方向
+ */
+.tar {
+  text-align: right;
+}
+.tac {
+	text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.taj {
+  text-align: justify;
+}
+
+/**
+ * 首行缩进两字符
+ */
+.ti2 {
+  text-indent: 2em;
+}
+
+/**
+ * 超出块的文字显示省略号
+ */
+.text-hide {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/**
+ * 字体大小
+ */
+.fs10 {
+  font-size: px2rem(10);
+}
+.fs11 {
+  font-size: px2rem(11);
+}
+.fs12 {
+  font-size: px2rem(12);
+}
+.fs13 {
+  font-size: px2rem(13);
+}
+.fs14 {
+  font-size: px2rem(14);
+}
+.fs15 {
+  font-size: px2rem(15);
+}
+.fs16 {
+  font-size: px2rem(16);
+}
+.fs17 {
+  font-size: px2rem(17);
+}
+.fs18 {
+  font-size: px2rem(18);
+}
+.fs19 {
+  font-size: px2rem(19);
+}
+.fs20 {
+  font-size: px2rem(20);
+}
+.fs22 {
+  font-size: px2rem(22);
+}
+.fs25 {
+  font-size: px2rem(25);
+}
+.fs26 {
+  font-size: px2rem(26);
+}
+.fs28 {
+  font-size: px2rem(28);
+}
+.fs30 {
+  font-size: px2rem(30);
+}
+.fs32 {
+  font-size: px2rem(32);
+}
+.fs40 {
+  font-size: px2rem(40);
+}
+
+/**
+ * 背景色
+ */
+.bg-main {
+  background: $red;
+}
+.bg-light {
+  background: $light;
+}
+.bg-gray {
+  background: $gray;
+}
+.bg-white {
+  background: #FFF;
+}
+
+/**
+ * 行
+ * @example
+ * <div class="row"></div>
+ */
+.row {
+  display: block;
+  position: relative;
+  padding: 1.2rem 0;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #DBDBDB;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+  }
+  /**
+   * 行链接样式，右边有向右的图标
+   * @example
+   * <div class="row link"></div>
+   */
+  &.link {
+    padding-right: px2rem(20);
+    background: url('../assets/right.png') no-repeat 100%;
+    background-size: px2rem(8);
+  }
+  &.select {
+    padding-right: px2rem(25);
+    background: url('../assets/select.png') no-repeat 100%;
+    background-size: px2rem(15);
+  }
+}
+
+.clearfix {
+  zoom: 1;
+  &:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+  }
+}
+
+/**
+ * 页脚提示信息
+ */
+.tip {
+  padding: px2rem(30) px2rem(20);
+  > p {
+    font-size: px2rem(12);
+    color: #ADADAD;
+    line-height: px2rem(18);
+    &:first-of-type {
+      color: #747474;
+    }
+  }
+}
+
+/**
+ * 容器
+ */
+.container {
+  background: #FFF;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+/**
+ * 间隔线
+ */
+.line-1 {
+  background: $rice;
+  height: px2rem(1);
+}
+.line-10 {
+  background: $rice;
+  height: px2rem(10);
+}
+
+/**
+ * 表单错误提示
+ */
+.err {
+  font-size: px2rem(13);
+}
